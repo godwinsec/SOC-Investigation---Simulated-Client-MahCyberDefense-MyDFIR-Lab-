@@ -23,6 +23,20 @@ All activity occurred in a **simulated SOC environment** under MahCyberDefense /
 
 ---
 
+## Tools Used
+
+| Tool | Purpose |
+|------|----------|
+| Microsoft Defender XDR | Alert triage, incident linkage, case management |
+| Microsoft Advanced Hunting (KQL) | Process, registry, and logon event investigation |
+| PowerShell Base64 Decoder (CyberChef) | Decoding malicious encoded commands |
+| Splunk (Simulated) | Cross-log correlation and alert forwarding (not primary in this case) |
+| MITRE ATT&CK | Technique classification |
+| Windows Registry Analysis (XDR telemetry) | Persistence validation |
+
+
+---
+
 ##  5. Summary of Findings
 
 - PowerShell dropper executed on **mts-contractorpc2**
